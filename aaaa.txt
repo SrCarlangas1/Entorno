@@ -1,0 +1,30 @@
+Inicio 
+Variables
+
+A=dia
+b=mes
+c=año
+
+Solicita dia
+
+Solicita mes
+
+Solicita año
+
+fi (a<=28 & b=2 & c<2017)
+	
+	mostrar pantalla 
+
+	else fi(a<=31 & b=1,3,5,7,8,10,12 & c<2017)
+			
+			mostrar pantalla 
+
+			
+		else fi(a <=30 & b=4,6,9,11 & c<2017)
+				
+				mostrar pantalla 
+
+
+			else	
+				error 
+if
